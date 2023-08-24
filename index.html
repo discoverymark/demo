@@ -12,7 +12,7 @@ function changeIframeSrc(url) {
   </head>
   <body style="padding: 0px; margin: 0px;">
 
-    <iframe style="border: none;position: absolute; top: 40px;z-index: -1; width: 100%; height: calc(100% - 40px);" id="urlIframe" ></iframe>
+    <iframe style="overflow:scroll; border: none;position: absolute; top: 40px;z-index: -1; width: 100%; height: calc(100% - 40px);" id="urlIframe" ></iframe>
     <input style="border-radius: 0px; border: 1px solid #ccc;position: absolute; top: 0px;width: 100%; height: 40px; font-size: 14px; box-sizing: border-box; padding: 5px;" type="text" onblur="changeIframeSrc(this.value)" placeholder="Enter url to demo" />
     <script id="dm_script" data-projectkey="SG7STLmmbmAd" type="module" src="https://unpkg.com/@discoverymark/satellite@latest"></script>
   </body>
